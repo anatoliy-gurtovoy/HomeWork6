@@ -30,9 +30,7 @@ body {
  * Render the `main` element consistently in IE.
  */
 
-main {
-    display: block;
-}
+
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -208,11 +206,26 @@ h2 {
     text-align: center
 }
 
+h3 {
+    margin: 40px auto 70px auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #070707;
+}
+
 .img-portfolio-1 {
     margin: 67px auto;
 }
 
-.button {
+button {
+    display: flex;
+    margin: 70px auto 40px auto;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -221,6 +234,36 @@ h2 {
     text-align: center;
     letter-spacing: 0.1em;
     background: #070707;
+    border-radius: 50px;
     color: #FFFFFF;
+}
 
+
+
+
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #070707;
+}
+
+.icon {}
+
+.end {
+    margin: 60px auto 100px auto;
+    Width: 200px;
+    Height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #828282;
 }
